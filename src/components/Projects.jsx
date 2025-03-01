@@ -154,9 +154,8 @@ const Projects = () => {
 
   // Sample project data - replace with your actual projects
  
-
   return (
-    <div id="projects-section" className="min-h-screen bg-[#0a0f24] px-4 py-20 sm:px-6 lg:px-8 relative overflow-hidden">
+    <div id="projects-section" className="min-h-screen bg-[#0A192F] px-4 py-20 sm:px-6 lg:px-8 relative overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[#64FFDA]/5 rounded-full filter blur-3xl animate-pulse" />
       <div className="absolute bottom-0 left-0 w-72 h-72 bg-[#64FFDA]/10 rounded-full filter blur-3xl animate-pulse delay-700" />
@@ -176,12 +175,14 @@ const Projects = () => {
               project={project} 
               index={index} 
               isVisible={isVisible}
+              className="transition-transform duration-300 hover:scale-105 hover:shadow-lg hover:border-[#64FFDA] border-transparent border-2"
             />
           ))}
         </div>
       </div>
     </div>
   );
+
 };
 
 export default Projects;

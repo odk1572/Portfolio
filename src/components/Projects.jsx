@@ -114,7 +114,7 @@ const ProjectCard = ({ project, index, isVisible }) => {
   
         {/* Live Demo Link */}
         <a
-          href="#"
+          href={project.live}
           className="flex items-center space-x-2 text-gray-400 hover:text-[#64FFDA] transition-colors duration-300 transform hover:scale-110"
         >
           <ExternalLink className="w-6 h-6 drop-shadow-[0_0_6px_#64FFDA]" />

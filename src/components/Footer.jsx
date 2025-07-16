@@ -10,7 +10,7 @@ const Footer = () => {
   const socialLinks = [
     { icon: FaGithub, href: "https://github.com/odk1572", label: "GitHub" },
     { icon: FaLinkedin, href: "https://www.linkedin.com/in/om-kariya-b1815628a/", label: "LinkedIn" },
-    { icon: SiLeetcode, href: "https://leetcode.com/u/Debug_Demon_18/", label: "LeetCode" },
+    { icon: SiLeetcode, href: "https://leetcode.com/u/BruteforceMonk/", label: "LeetCode" },
   ]
 
   const footerVariants = {

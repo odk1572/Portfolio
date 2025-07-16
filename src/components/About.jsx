@@ -107,7 +107,7 @@ const About = () => {
         <div className={`${animationBaseClass} delay-1000 mt-16 ${isVisible ? visibleClass : hiddenClass}`}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-[#112240] p-6 rounded-xl border border-[#64FFDA]/20 text-center">
-              <h4 className="text-4xl font-bold text-[#64FFDA] mb-2">200+</h4>
+              <h4 className="text-4xl font-bold text-[#64FFDA] mb-2">340+</h4>
               <p className="text-gray-400">DSA Problems Solved</p>
             </div>
             <div className="bg-[#112240] p-6 rounded-xl border border-[#64FFDA]/20 text-center">
